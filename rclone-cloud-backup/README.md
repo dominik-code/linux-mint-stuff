@@ -13,4 +13,6 @@
 
 > rclone sync /media/dominikschmitt/Externe\ Linux/ davsechetzner:/Externaldrive1 --backup-dir davsechetzner:/Backup/Externaldrive1 --suffix=$(date +"__%Y_%m_%d_%H%M%S") --contimeout=5m --bwlimit "00:45,800 04:30,650 16:00,350 18:00,150 22:00,350 23:30,450"
 
+> rclone sync /media/dominikschmitt/Externe\ Linux/ davsechetzner:/Externaldrive1 --backup-dir davsechetzner:/Backup/Externaldrive1 --suffix=$(date +"__%Y_%m_%d_%H%M%S") --contimeout=5m --bwlimit "00:45,800 04:30,650 16:00,350 18:00,150 22:00,350 23:30,450" -v --stats=10s --transfers=2 --checkers=2
+
 > rclone mount davsechetzner: /media/Hetzner/ --transfers=4 --checkers=4

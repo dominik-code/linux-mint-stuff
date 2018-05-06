@@ -1,6 +1,8 @@
 # linux-mint-stuff
 
 ## Table of content
+* background-changer
+> A small script to change the background image based on connected screens
 * bash-xrandr-brightness-switcher
 > A small script to toggle display brigthness of a multi monitor setup
 * conky-script
